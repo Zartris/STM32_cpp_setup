@@ -1,7 +1,5 @@
 #pragma once
-#include "BNO085.hpp"
-#include "BNO085_I2C.hpp"
-#include "BNO085_Registers.hpp"
+#include "logger.hpp"
 
 class App
 {
@@ -16,6 +14,5 @@ public:
     void run();
 
 private:
-    BNO085 *imu1;
-    BNO085 *imu2;
+    UARTLogger m_log();
 };
