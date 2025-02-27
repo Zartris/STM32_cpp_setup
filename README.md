@@ -14,6 +14,7 @@ This repository provides a template for integrating C++ code into STM32 projects
 ## Project Structure
 
 This template uses the following directory structure to organize the project:
+```Bash
 stm32-cpp-template/
  ├── .vscode/ # Optional: VS Code settings 
  ├── App/ # Your C++ application code 
@@ -24,6 +25,7 @@ stm32-cpp-template/
  │  └── Src/ # Source files (main.c) 
  ├── CMakeLists.txt % Main CMake file
  └── README.md # Project documentation
+```
 
 ## Project Structure Additions
 
