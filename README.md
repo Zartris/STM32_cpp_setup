@@ -23,7 +23,7 @@ stm32-cpp-template/
  ├── Core/ # CubeMX generated files (HAL, main.c, etc.) 
  │  ├── Inc/ # Header files (main.h, mainCpp.h) 
  │  └── Src/ # Source files (main.c) 
- ├── CMakeLists.txt % Main CMake file
+ ├── CMakeLists.txt # Main CMake file
  └── README.md # Project documentation
 ```
 
